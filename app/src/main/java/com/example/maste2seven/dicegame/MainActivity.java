@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
         button3 = (Button) findViewById(R.id.button3);
 
 
-    }
+    }//bindwiget
 
 
-}
+}//main class
