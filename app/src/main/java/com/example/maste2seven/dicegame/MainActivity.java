@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     private ImageView image1;
     private Button button,button2, button3;
     private int val;
+    private int sound;
 
 
 
@@ -63,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Random objRandom = new Random();
                 val = objRandom.nextInt(6) + 1;
-
+                sound = R.raw.__phonton1;
                 changdice();
                 }
 
@@ -78,8 +79,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 val = val-1;
-                if (val==1) {
+                if (val==0) {
                     val = 6;
+
                 }
                 changdice();
             }
