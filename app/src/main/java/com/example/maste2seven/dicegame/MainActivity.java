@@ -100,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
                     val = 1;
                 }
 
-                changdice();
+                changdice();//
             }
                     }
 
