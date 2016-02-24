@@ -31,21 +31,41 @@ public class MainActivity extends AppCompatActivity {
         random();
 
 
-    }
+    }//method
 
     private void random() {
 
-    }
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+
+    }//randomroll
 
     private void Backing() {
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
 
 
     }
 
     private void Forwarding() {
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
 
+            }
+        });
 
     }
+
+
 
     private void bindwiget() {
 

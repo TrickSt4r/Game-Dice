@@ -51,7 +51,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:onClick="rollrand" />
+        android:onClick="random" />
 
     <Button
         android:layout_width="wrap_content"
@@ -59,7 +59,6 @@
         android:text="Next"
         android:id="@+id/button"
         android:textSize="24dp"
-        android:layout_alignParentBottom="true"
-        android:onClick="rollnext" />
+        android:layout_alignParentBottom="true" />
 
 </RelativeLayout>
