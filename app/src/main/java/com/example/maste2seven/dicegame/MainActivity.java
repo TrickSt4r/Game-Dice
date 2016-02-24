@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Random objRandom = new Random();
                 val = objRandom.nextInt(6) + 1;
-                sound = R.raw.__phonton1;
+                sound = R.raw.__phonton1;//sound
                 changdice();
                 }
 
